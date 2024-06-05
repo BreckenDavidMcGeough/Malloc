@@ -1,6 +1,8 @@
 # Dynamic Memory Allocator Implementation From Scratch In C
 
-## A fully functional dynamic memory allocator written in native C from scratch with the following functionality:
+## A fully functional dynamic memory allocator written in native C from scratch
+
+This project was from CSE220:Systems Programming and tested our knowledge and understanding of implicit free lists, C system calls, void pointers, and dynamic memory allocation. It includes the following functionality:
 
 * Malloc chunks of memory of a specified size
 
