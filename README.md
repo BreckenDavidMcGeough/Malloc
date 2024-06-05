@@ -1,3 +1,24 @@
+# Dynamic Memory Allocator Implementation From Scratch In C
+
+## A fully functional dynamic memory allocator written in native C from scratch with the following functionality:
+
+* Malloc chunks of memory of a specified size
+
+* Calloc chunks of memory of a specified size
+
+* Realloc chunks of memory of a specified size
+
+* Free a chunk of memory which was manually allocated
+
+## Overview of functionality
+
+The program keeps track of allocated chunks of memory in the form of a linked list. It uses the sbrk() C command to request a page of memory to divide up and allocate. Stores chunks of memory using an implicit free list architecture. Will return a void pointer with the memory a user requests, rounded to the nearest chunk size with respect to the amount of memory they request. 
+
+
+
+
+
+
 Dynamic Memory Allocator: Multi-Pool
 ===
 
