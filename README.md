@@ -14,9 +14,13 @@ This project was from CSE220:Systems Programming and tested our knowledge and un
 
 ## Overview of functionality
 
-The program keeps track of allocated chunks of memory in the form of a linked list. It uses the sbrk() C command to request a page of memory to divide up and allocate. Stores chunks of memory using an implicit free list architecture. Will return a void pointer with the memory a user requests, rounded to the nearest chunk size with respect to the amount of memory they request. 
+The program keeps track of allocated chunks of memory in the form of a linked list. It uses the sbrk() C command to request a page of memory to divide up and allocate. Stores chunks of memory using an implicit free list architecture. Will return a void pointer with the memory a user requests, rounded to the nearest chunk size with respect to the amount of memory they request. Links to Wiki pages for free lists and dynamic memory allocation are provided below for a deeper understanding.
 
+* Free lists: [
+](https://en.wikipedia.org/wiki/Free_list)
 
+* Dynamic memory allocation: [
+](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation)
 
 
 
